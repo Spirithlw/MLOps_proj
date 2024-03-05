@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "mlops-proj"
+version = "0.1.0"
+description = "mlops"
+authors = ["Koshelev Egor"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+torch = "^2.2.1"
+lightning = "^2.2.1"
+dvc = "^3.48.2"
+torchmetrics = "^1.3.1"
+mlflow = "^2.11.0"
+onnx = "^1.15.0"
+torchvision = "^0.17.1"
+onnxruntime = "^1.17.1"
+pre-commit = "^3.6.2"
+dvc-gdrive = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

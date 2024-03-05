@@ -1,0 +1,12 @@
+data:
+  path: data/
+  batch_size: 128
+model:
+  num_classes: 10
+train:
+  accelerator: cpu
+  epochs: 1
+  learning_rate: 0.001
+mlflow:
+  uri: http://127.0.0.1:8080
+  experiment_name: Cifar10_basecnn

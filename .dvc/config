@@ -1,0 +1,5 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = gdrive://1kfDazJmZWPnV-W_v_c9ZePj_4ElyV5tx/dvcstore
+    gdrive_acknowledge_abuse = true

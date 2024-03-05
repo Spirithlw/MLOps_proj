@@ -1,0 +1,5 @@
+outs:
+- md5: 5634f1c894f2da4e51519ae840c83730
+  size: 13482247
+  hash: md5
+  path: CifarCNN.ckpt
